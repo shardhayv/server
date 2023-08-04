@@ -17,7 +17,7 @@ app.options("*", cors());
 
 // Load env file
 dotenv.config({
-  path: "./config/config.env",
+  path: "./config/.env",
 });
 
 // Connect to database
